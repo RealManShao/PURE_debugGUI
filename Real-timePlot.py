@@ -18,9 +18,8 @@ data = np.sin(np.linspace(-np.pi/2,7/2*np.pi,200))
 ptr = 0
 def update():
     global curve, data, ptr, plot
-    c=ptr%100
-    i=data[c:c+101]
-    #print (i)
+    c=99-ptr%100
+    i=data[c:c+101:1]
     curve.setData(i)
     if ptr == 0:
         plot.enableAutoRange('xy', False)  ## stop auto-scaling after the first data set is plotted

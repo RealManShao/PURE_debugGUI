@@ -2,6 +2,9 @@
 ## Intro
 This is a GUI used for PURE, based on PyQt5
 ## Progress
+
+### GUI part
+
 3, Oct: Create a UI demo by Qt Designer
 
 10, Oct: Reading the real-time plot code
@@ -14,7 +17,7 @@ This is a GUI used for PURE, based on PyQt5
 
 7, Nov: Add logging module to the interface, and reading examples of power supply design.
 
-## GUI part archieved
+### circuit part
 
 14, Jan: Design the amplify circuit for load cells. Design the 48v to 5v/12v converter.
 
